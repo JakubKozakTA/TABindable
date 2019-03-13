@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.swift_version = '4.2'
 
-  s.source_files = 'TABindable/Classes/**/*'
+  s.source_files = 'TABindable.swift'
   
   # s.resource_bundles = {
   #   'TABindable' => ['TABindable/Assets/*.png']
