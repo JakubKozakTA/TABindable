@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TABindable'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TABindable.'
+  s.summary          = 'Yeah, here will be desc'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'This is a description'
+  s.description      = 'This is a description which is longer than summary'
 
   s.homepage         = 'https://github.com/JakubKozakTA/TABindable.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.swift_version = '4.2'
 
   s.source_files = 'TABindable/Classes/**/*'
   
