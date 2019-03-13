@@ -12,13 +12,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		100AF3ACA4C7E7808EEB8C80 /* TABindable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TABindable.podspec; path = ../TABindable.podspec; sourceTree = "<group>"; };
-		1C552647105A5A9D03767E11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		100AF3ACA4C7E7808EEB8C80 /* TABindable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TABindable.podspec; path = ../TABindable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1C552647105A5A9D03767E11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		502C9BF947A58AA3416830A8 /* Pods_TABindable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TABindable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACE51AFB9204008FA782 /* TABindable_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TABindable_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		678920E618C50CEB4DC08607 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		678920E618C50CEB4DC08607 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7751E086F1A9CD566BDCF89B /* Pods-TABindable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABindable_Tests.release.xcconfig"; path = "Target Support Files/Pods-TABindable_Tests/Pods-TABindable_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7A797E076780CABEAAC249A8 /* Pods-TABindable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABindable_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TABindable_Tests/Pods-TABindable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,7 +95,6 @@
 				7A797E076780CABEAAC249A8 /* Pods-TABindable_Tests.debug.xcconfig */,
 				7751E086F1A9CD566BDCF89B /* Pods-TABindable_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
