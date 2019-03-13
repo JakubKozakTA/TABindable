@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TABindable_Tests' do
+  pod 'TABindable', :path => '../'
+  
+  
+end
